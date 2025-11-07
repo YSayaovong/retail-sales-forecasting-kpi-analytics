@@ -1,49 +1,81 @@
-# 🏡 Real Estate Financial Analytics Dashboard | Rental Income KPI Reporting | ROI Forecasting & Portfolio Insights  
+## 📚 Case Study: Identifying Underperforming Rentals & Improving Portfolio ROI
 
-## Executive Summary
-Real estate investors face challenges in tracking rental income, expenses, and ROI across multiple properties.  
-This project provides a **financial analytics dashboard** to centralize KPIs, cash flow tracking, and forecasting models.  
+### ✅ Scenario
+A small real estate investor manages four rental properties using separate spreadsheets, text messages from tenants, and handwritten notes.  
+As the portfolio grows, the investor notices:
+- Net income fluctuates month to month  
+- One property seems to “break even” despite strong rent  
+- Expense patterns are unclear  
+- Long-term ROI is difficult to measure  
 
-**Key Impacts**:  
-- 25% reduction in manual reporting effort  
-- Faster investment decision-making  
-- Improved visibility into rental profitability  
+They need unified visibility into rental performance and a way to evaluate which properties deserve reinvestment.
 
-<p align="center">
-  <img src="https://github.com/YSayaovong/Real-Estate-Financial-Analytics-Tool/blob/main/Screenshots/Rental_Property_Financial_Dashboard.PNG" alt="Financial Dashboard Summary" width="900"/>
-</p>
-
----
-
-## Business Problem
-Investors often rely on scattered spreadsheets that fail to show long-term ROI and trends.  
-This leads to poor capital allocation and missed opportunities.  
+The Real Estate Financial Analytics Dashboard is implemented to consolidate all financials and generate KPI-driven insights.
 
 ---
 
-## Methodology
-- **Data Collection & Cleansing:** Mock rental property financials  
-- **SQL Queries:** Aggregate KPIs like NOI, expenses, rent per tenant  
-- **Excel & Power BI Dashboards:** KPI cards, trends, variance visuals  
-- **Financial Modeling:** ROI, cash flow, and forecasting  
+### ✅ Step 1 — Data Consolidation & KPI Extraction
+The investor’s historical rent payments, expenses, and mortgage details are loaded into the model.
+
+**Key KPIs generated:**
+- Net Operating Income (NOI)  
+- Cash Flow After Debt Service  
+- Expense Ratio  
+- ROI & Cash-on-Cash Return  
+- Annualized rent growth  
+- Maintenance cost trends  
+
+This immediately exposes inconsistencies between properties.
 
 ---
 
-## Skills
-- **Financial Modeling:** Cash flow, ROI, NOI, mortgage amortization  
-- **SQL Query Design:** KPI extraction and transformations  
-- **Data Visualization:** Power BI dashboards, Excel pivots, conditional formatting  
-- **Data Automation:** Refreshable connections, repeatable models  
+### ✅ Step 2 — Performance Diagnosis
+With KPIs centralized, several issues emerge:
+
+1. **Property 2** shows an expense ratio of **58%**, far above the portfolio average.  
+2. **Property 4** delivers strong NOI but low cash flow due to a high-interest mortgage.  
+3. Seasonal spending spikes (repairs + utilities) were hidden in the original spreadsheets.  
+4. Rent growth across the portfolio averaged **3.2%**, except for Property 1, which remained flat for 18 months.
+
+The dashboard Pinpoints the exact sources of profit leakage.
 
 ---
 
-## Results & Business Recommendation
-- Identified **underperforming properties** due to high maintenance costs  
-- Provided actionable recommendations: **refinance high-cost units** and diversify into **low-maintenance rentals**  
+### ✅ Step 3 — Financial Modeling & Scenario Analysis
+The investor tests several scenarios:
+
+**Scenario A — Refinance Property 4**  
+- New mortgage drops monthly debt service by 18%  
+- Cash flow increases by ~$240/month  
+
+**Scenario B — Adjust rent for Property 1**  
+- Implementing a small rent increase of $75 raises annual ROI by 1.1%  
+
+**Scenario C — Reduce maintenance costs for Property 2**  
+- Outsourcing recurring repairs cuts yearly expenses by 22%  
+
+Each scenario recalculates KPIs and updates the forecast visuals.
 
 ---
 
-## Next Steps
-- Integrate with **Apartments.com** or **QuickBooks** for live data feeds  
-- Add **predictive analytics** using Python (rental demand forecasting, expense forecasting)  
-- Scale solution to portfolios with **1,000+ rental units**  
+### ✅ Step 4 — Final Recommendations
+Based on the analytics:
+
+- **Refinance Property 4** to unlock hidden cash flow  
+- **Increase rent on Property 1** to match market levels  
+- **Address maintenance inefficiencies** on Property 2  
+- Allocate future capital toward units with the highest ROI trend  
+- Use dashboard monthly to track rent, expenses, and cash flow consistency  
+
+---
+
+### ✅ Step 5 — Outcome
+Within one quarter of implementing dashboard-driven strategies:
+
+- Portfolio cash flow improved by **15–18%**  
+- Underperforming property ROI increased after expense optimization  
+- Investor reduced manual reporting time by **25%**  
+- Decision-making became proactive instead of reactive  
+- Clear, centralized KPIs replaced five separate spreadsheets  
+
+The investor now relies on the dashboard as their main financial command center for property performance, forecasting, and strategic planning.
